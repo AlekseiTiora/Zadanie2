@@ -96,7 +96,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 44);
             this.label1.TabIndex = 20;
-            this.label1.Text = "start";
+            this.label1.Text = "старт";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -107,7 +107,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 36);
             this.label2.TabIndex = 31;
-            this.label2.Text = "Finish";
+            this.label2.Text = "финиш";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.MouseEnter += new System.EventHandler(this.label2_MouseEnter);
             // 
@@ -184,7 +184,7 @@
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.OrangeRed;
-            this.pictureBox20.Location = new System.Drawing.Point(112, 316);
+            this.pictureBox20.Location = new System.Drawing.Point(100, 319);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(131, 20);
             this.pictureBox20.TabIndex = 23;

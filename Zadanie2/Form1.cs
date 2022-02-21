@@ -49,8 +49,20 @@ namespace Zadanie2
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("Ты прошел игру");
-            this.Hide();
+            DialogResult dr = MessageBox.Show("ты прошел игру! Хочешь перейти на 2 уровень?", "выйграл",
+                MessageBoxButtons.YesNo);
+            if (dr == System.Windows.Forms.DialogResult.Yes)
+            {
+                this.Hide();
+                Form2 uus_aken = new Form2();
+                uus_aken.StartPosition = FormStartPosition.CenterScreen;
+                uus_aken.Show();
+
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
         }
 
 
@@ -60,10 +72,7 @@ namespace Zadanie2
             finish_game();
         }
 
-        private void pictureBox28_MouseEnter(object sender, EventArgs e)
-        {
 
-        }
 
         private void coin1_MouseEnter(object sender, EventArgs e)
         {
@@ -77,8 +86,6 @@ namespace Zadanie2
             door2.Visible = false;
         }
 
-        private void label3_Paint(object sender, PaintEventArgs e)
-        {
-        }
+
     }
 }
