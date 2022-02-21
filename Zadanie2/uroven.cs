@@ -16,19 +16,5 @@ namespace Zadanie2
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form1 uus_aken = new Form1();
-            uus_aken.StartPosition = FormStartPosition.CenterScreen;
-            uus_aken.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form2 uus_aken = new Form2();
-            uus_aken.StartPosition = FormStartPosition.CenterScreen;
-            uus_aken.Show();
-        }
     }
 }
