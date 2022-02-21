@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Zadanie2
-{
+{//
     public partial class uroven : Form
     {
         public uroven()
