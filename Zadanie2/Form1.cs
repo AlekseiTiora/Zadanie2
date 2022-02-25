@@ -49,8 +49,20 @@ namespace Zadanie2
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("Ты прошел игру");
-            this.Hide();
+
+
+            DialogResult dr = MessageBox.Show("Вы прошли игру, перейти на новый уровень?", "побидитель",
+            MessageBoxButtons.YesNo);
+            if (dr == System.Windows.Forms.DialogResult.Yes)
+            {
+                Form2 uus_aken = new Form2();
+                uus_aken.StartPosition = FormStartPosition.CenterScreen;
+                uus_aken.Show();
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
         }
 
 

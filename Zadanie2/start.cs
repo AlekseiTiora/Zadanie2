@@ -19,6 +19,18 @@ namespace Zadanie2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            uroven uus_aken = new uroven();
+            uus_aken.StartPosition = FormStartPosition.CenterScreen;
+            uus_aken.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("здесь ты должен пройти лабиринты их здесь всего 2. Чтобы их пройти ты должен открывать двери, а открыть ты их можешь с помощью ключа(они выглядят как желтые квадратики)");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
             Form1 uus_aken = new Form1();
             uus_aken.StartPosition = FormStartPosition.CenterScreen;
             uus_aken.Show();
